@@ -1,6 +1,19 @@
-.container {
-  background-color: #fbe5d6;
+body {
+  margin: 0;
 }
+
+.root {
+  display: flex;
+  justify-content: start;
+}
+
+.box-container {
+  background-color: #fbe5d6;
+  width: 600px;
+  height: 600px;
+  position: relative;
+}
+
 .Box {
   position: absolute;
   width: 100px;
@@ -20,7 +33,7 @@
   border: 1px solid black;
 }
 .ItemB {
-  left: 500px;
+  left: 480px;
   top: 100px;
   height: 200px;
   background-color: #fbe5d6;
@@ -44,16 +57,14 @@
   border: 1px solid black;
 }
 .ItemE {
-  left: 300px;
-  top: 300px;
+  left: 380px;
+  top: 380px;
   width: 200px;
   height: 200px;
   border: 1px solid black;
 }
 .checkbox-container {
-  position: absolute;
-  left: 600px;
-  top: 0px;
+  position: relative;
   display: flex;
   flex-direction: column;
 }
@@ -64,7 +75,10 @@
   justify-content: center;
   align-items: center;
 }
-input {
-  margin-right: 15px;
+input[type="checkbox"] {
+  margin-right: 30px;
   transform: scale(2);
+}
+label {
+  font-size: 1.5rem;
 }
