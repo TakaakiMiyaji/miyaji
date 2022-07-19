@@ -4,6 +4,7 @@ body {
 
 .root {
   display: flex;
+  flex-direction: column;
   justify-content: start;
 }
 
@@ -66,19 +67,40 @@ body {
 .checkbox-container {
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 .Check {
   padding: 15px;
   font-size: 1rem;
   display: flex;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
 }
 input[type="checkbox"] {
-  margin-right: 30px;
+  margin-top: 10px;
   transform: scale(2);
 }
 label {
   font-size: 1.5rem;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 767px) {
+  .root {
+    flex-direction: row;
+  }
+  .checkbox-container {
+    flex-direction: column;
+  }
+  .Check {
+    flex-direction: row;
+  }
+  input[type="checkbox"] {
+    margin-right: 30px;
+    transform: scale(2);
+  }
+  label {
+    font-size: 1.5rem;
+  }
 }
