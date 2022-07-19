@@ -1,0 +1,70 @@
+.container {
+  background-color: #fbe5d6;
+}
+.Box {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.ItemA {
+  left: 100px;
+  top: 100px;
+  width: 150px;
+  background-color: #4472c4;
+  color: white;
+  border: 1px solid black;
+}
+.ItemB {
+  left: 500px;
+  top: 100px;
+  height: 200px;
+  background-color: #fbe5d6;
+  color: white;
+  border: 1px solid black;
+}
+.ItemC {
+  left: 250px;
+  top: 250px;
+  width: 250px;
+  background-color: #ffc000;
+  color: white;
+  border: 1px solid #e0a800;
+}
+.ItemD {
+  left: 100px;
+  top: 400px;
+  width: 250px;
+  background-color: #70ad47;
+  color: white;
+  border: 1px solid black;
+}
+.ItemE {
+  left: 300px;
+  top: 300px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+.checkbox-container {
+  position: absolute;
+  left: 600px;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.Check {
+  padding: 15px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  margin-right: 15px;
+  transform: scale(2);
+}
