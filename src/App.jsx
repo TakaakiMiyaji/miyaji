@@ -31,7 +31,7 @@ function App() {
       <div className="checkbox-container">
         <div className="Check">
           <input type="checkbox" name="A" id="A" onChange={handleChange} />
-          <label htmlFor="A">選択肢A</label>
+          <label htmlFor="A">選択肢FF</label>
         </div>
         <div className="Check">
           <input type="checkbox" name="B" id="B" onChange={handleChange} />
