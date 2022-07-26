@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="root">
       <div className="box-container">
-        {state.A ? <div className="ItemA Box">選択肢A</div> : null}
+        {state.A ? <div className="ItemA Box">選択肢FF</div> : null}
         {state.B ? <div className="ItemB Box">選択肢B</div> : null}
         {state.C ? <div className="ItemC Box">選択肢C</div> : null}
         {state.D ? <div className="ItemD Box">選択肢D</div> : null}
